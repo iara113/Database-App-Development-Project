@@ -1,1 +1,57 @@
+CREATE DATABASE IF NOT EXISTS tabelas_dados2;
+USE tabelas_dados2;
 
+CREATE TABLE IF NOT EXISTS Instituicao (
+  id INT(20) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  Nome VARCHAR(255) NOT NULL,
+  Email VARCHAR(255) DEFAULT NULL,
+  WebSite VARCHAR(255) DEFAULT NULL,
+  Distrito VARCHAR(255) NOT NULL,
+  Endereco VARCHAR(255) NOT NULL,
+  CC VARCHAR(255) NOT NULL,
+  Localidade VARCHAR(255) NOT NULL,
+  INDEX (Nome)
+);
+
+CREATE TABLE IF NOT EXISTS Telefone (
+  Nome VARCHAR(255) NOT NULL,
+  Numero int(20) NULL,
+  FOREIGN KEY (Nome) REFERENCES Instituicao(Nome)
+
+);
+
+CREATE TABLE IF NOT EXISTS Fax (
+  Nome VARCHAR(255) NOT NULL,
+  Numero int(20) NULL,
+  FOREIGN KEY (Nome) REFERENCES Instituicao(Nome)
+);
+
+CREATE TABLE IF NOT EXISTS Dominio(
+  Nome VARCHAR(255) NOT NULL,
+  PRIMARY KEY(Nome)
+);
+
+CREATE TABLE IF NOT EXISTS Trabalha_Segundo(
+  Instituicao VARCHAR(255) NOT NULL,
+  Dominio VARCHAR(60) NOT NULL,
+  FOREIGN KEY (Instituicao) REFERENCES Instituicao(Nome),
+  FOREIGN KEY (Dominio) REFERENCES Dominio(Nome)
+);
+
+CREATE TABLE IF NOT EXISTS Dirigente(
+  Nome VARCHAR(255) NULL,
+  id INT(20) NOT NULL auto_increment,
+  FOREIGN KEY (id) REFERENCES Instituicao(id)
+);
+
+CREATE TABLE IF NOT EXISTS Instituicao_Acolhimento(
+  Nome VARCHAR(255) NULL,
+  id INT(20) NOT NULL auto_increment,
+  FOREIGN KEY (id) REFERENCES Instituicao(id)
+);
+
+CREATE TABLE IF NOT EXISTS Setor(
+  Nome VARCHAR(255) NOT NULL,
+  id INT(20) NOT NULL auto_increment,
+  FOREIGN KEY (id) REFERENCES Instituicao(id)
+);
