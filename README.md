@@ -1,7 +1,5 @@
 # Database-App-Development-Project
 
-# Sumário
-
 [Beatriz Silva, Sérgio Coelho, Tomás Monteiro] DCC/FCUP
 
 Aplicação Python demonstrando o acesso à BD Instituições com atividade em Portugal
