@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Instituição e todos os seus Domínios{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <table> 
+  <tr>
+    <th><b>Instituição</b></th>
+    <th><b>Domínio</b></th>
+   </tr>
+   
+  {% for seg in trabalhas%}
+    <tr>
+      <td>{{ seg.Instituicao }}</td>
+      <td>{{ seg.Dominio }}</td>
+    </tr>
+  {% endfor %}
+  </table>
+{% endblock %}

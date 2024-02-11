@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Instituições{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <table> 
+  <tr>
+    <th><b>Id</b></th>
+    <th><b>Instituição</b></th>
+    <th><b>Email</b></th>
+    <th><b>WebSite</b></th>
+    <th><b>Distrito</b></th>
+    <th><b>Endereço</b></th>
+    <th><b>Código Postal<b></th>
+    <th><b>Localidade</b></th>
+   </tr>
+   
+  {% for i in instituicoes %}
+    <tr>
+      <td><a href="/instituicoes/{{ i.id }}">{{ i.id }}</a></td>
+      <td>{{ i.Nome }}</td>
+      <td>{{ i.Email }}</td>
+      <td>{{ i.WebSite }}</td>
+      <td>{{ i.Distrito }}</td>
+      <td>{{ i.Endereco }}</td>
+      <td>{{ i.CC }}</td>
+      <td>{{ i.Localidade }}</td>
+      
+    </tr>
+  {% endfor %}
+  </table>
+{% endblock %}

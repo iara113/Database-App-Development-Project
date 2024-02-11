@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Faxs{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <table> 
+  <tr>
+    <th><b>Id</b></th>
+    <th><b>Instituição</b></th>
+    <th><b>Numero</b></th>
+   </tr>
+   
+  {% for f in fax%}
+    <tr>
+      <td><a href="/instituicoes/{{ f.id }}">{{ f.id }}</a></td>
+      <td>{{ f.Instituicao }}</td>
+      <td>{{ f.Fax}}</td>
+    </tr>
+  {% endfor %}
+  </table>
+{% endblock %}

@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}{{ instituicao.Nome }} {% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <h2>Instituicao info</h2>
+  <p>
+    <b>Id: </b><a href="/instituicoes/{{ instituicao.id }}">{{ instituicao.id }}</a>
+  </p>
+  <p>
+    <b>Instituição: </b>{{ instituicao.Instituicao }}
+  </p>
+  <p>
+    <b>Distrito: </b>{{ instituicao.Distrito }}
+  </p>
+  <p>
+    <b>Endereço: </b>{{ instituicao.Endereco }}
+  </p>
+  <p>
+    <b>Código Postal: </b>{{ instituicao.CC }}
+  </p>
+  <p>
+    <b>Localidade: </b>{{ instituicao.Localidade }}
+  </p>
+  <p>
+    <b>Setor: </b>{{ instituicao.Setor }}
+  </p>
+  {% if instituicao.Acolhimento %}
+  <p>
+    <b>Instituição de Acolhimento: </b>{{ instituicao.Acolhimento }}
+  </p>
+  {% endif %}
+
+  {% if instituicao.Email %}
+  <p>
+    <b>Email: </b>{{ instituicao.Email }}
+  </p>
+  {% endif %}
+
+  {% if instituicao.Site %}
+  <p>
+    <b>WebSite: </b>{{ instituicao.Site }}
+  </p>
+  {% endif %}
+
+  {% if instituicao.Dirigente %}
+  <p>
+    <b>Dirigente: </b>{{ instituicao.Dirigente }}
+  </p>
+  {% endif %}
+  <p>
+    <b>Dominio Principal: </b>{{ instituicao.Dominio }}
+  </p>
+  
+
+  {% if instituicao.Telefone %}
+  <p>
+    <b>Telefone Principal: </b>{{ instituicao.Telefone }}
+  </p>
+  {% endif %}
+  
+  {% if instituicao.Fax %}
+  <p>
+    <b>Fax Principal: </b>{{ instituicao.Fax }}
+  </p>
+  {% endif %}
+
+
+
+  
+{% endblock %}

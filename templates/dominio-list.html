@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Dominios{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <table> 
+  <tr>
+    <th><b>Dominio</b></th>
+   </tr>
+   
+  {% for d in dominio%}
+    <tr>
+      <td>{{ d.Nome }}</td>
+    </tr>
+  {% endfor %}
+  </table>
+{% endblock %}

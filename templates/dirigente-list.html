@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Dirigentes{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <table> 
+  <tr>
+    <th><b>Id</b></th>
+    <th><b>Dirigente</b></th>
+   </tr>
+   
+  {% for dirigente in dirigente%}
+    <tr>
+      <td><a href="/instituicoes/{{ dirigente.id }}">{{ dirigente.id }}</a></td>
+      <td>{{ dirigente.Nome}}</td>
+    </tr>
+  {% endfor %}
+  </table>
+{% endblock %}

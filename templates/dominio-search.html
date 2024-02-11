@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}{{ search.expr }} {% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <h2>Resuldados</h2>
+  <table> 
+    <tr>
+      <th><b>Id</b></th>
+      <th><b>Instituição</b></th>
+      <th><b>Dominio</b></th>
+     </tr>
+     
+    {% for d in dominios %}
+      <tr>
+        <td><a href="/instituicoes/{{ d.id }}">{{ d.id }}</a></td>
+        <td>{{ d.Nome }}</td>
+        <td>{{ d.Dominio }}</td>
+       
+      </tr>
+    {% endfor %}
+    </table>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Números de Telefone{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <table> 
+  <tr>
+    <th><b>Instituição</b></th>
+    <th><b>Instituição</b></th>
+    <th><b>Numero</b></th>
+   </tr>
+   
+  {% for t in telefone %}
+    <tr>
+      <td><a href="/instituicoes/{{ t.id }}">{{ t.id }}</a></td>
+      <td>{{ t.Instituicao }}</td>
+      <td>{{ t.Telefone }}</td>
+    </tr>
+  {% endfor %}
+  </table>
+{% endblock %}

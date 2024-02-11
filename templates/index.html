@@ -1,0 +1,164 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Base de Dados de Instituições com atividade em Portugal {% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<h2>Sobre</h2>
+<p>Esta aplicação web ilustra o uso da base de dados de "Instituições com atividade em Portugal". A aplicação foi construida usando
+<a href="https://pymysql.readthedocs.io/">PyMySQL</a>,
+<a href="https://flask.palletsprojects.com">Flask</a>, e
+<a href="https://jinja.palletsprojects.com">Jinja</a>.
+</p>
+
+<h2>Estatísticas da base de dados</h2>
+<table>
+<tr>
+  <th>Itens</th>
+  <th>Contagem</th>
+</tr>
+<tr>
+  <td>Instituições</td>
+  <td>{{ stats.instituicoes }}</td>
+</tr>
+<tr>
+  <td>Instituições de Acolhimento</td>
+  <td>{{ stats.acolhimentos }}</td>
+</tr>
+<tr>
+  <td>Domínios</td>
+  <td>{{ stats.dominios }}</td>
+</tr>
+<tr>
+  <td>Setores</td>
+  <td>{{ stats.setores }}</td>
+</tr>
+<tr>
+  <td>Dirigentes</td>
+  <td>{{ stats.dirigentes }}</td>
+</tr>
+<tr>
+  <td>Números de Telefone</td>
+  <td>{{ stats.telefones }}</td>
+</tr>
+<tr>
+  <td>Números de Fax</td>
+  <td>{{ stats.faxs }}</td>
+</tr>
+<tr>
+  <td>Número de Domínios associados a cada Instituição</td>
+  <td>{{ stats.trabalha }}</td>
+</tr>
+</table>
+
+
+<h2>Aplicação</h2>
+
+<h3>Instituições</h3>
+<p>
+   <a href="/instituicoes">Mostra todos</a>
+</p>
+<p><b>Informação da Instituição:</b>
+<form name="mid" action="javascript:window.open('/instituicoes/'+document.forms['mid'].elements['id'].value,'_self')">
+   Id:<input value="1" name="id" type="number" min="1"/><input type="submit" value="get"/>
+</form>
+</p>
+  
+<p>Procurar pela Instituição:
+<form name="msearch" action="javascript:window.open('/instituicoes/search/'+document.forms['msearch'].elements['expr'].value,'_self')">
+  <input name="expr" id="expr" value="Academia" required/>
+  <input type="submit" value="search"/>
+</form>
+</p>
+
+<h3>Instituição de Acolhimento</h3>
+<p>
+   <a href="/acolhimentos">Mostra todos</a>
+</p>
+<p><b>Informação da Instituição de Acolhimento:</b>
+<form name="aid" action="javascript:window.open('/acolhimentos/'+document.forms['aid'].elements['id'].value,'_self')">
+   Id:<input value="1" name="id" type="number" min="1"/><input type="submit" value="get"/>
+</form>
+</p>
+  
+<p>Procurar pela Instituição de Acolhimento: (prone to <a href="https://en.wikipedia.org/wiki/SQL_injection">SQL injection</a>!)
+  <form name="asearch" action="javascript:window.open('/acolhimentos/search/'+document.forms['asearch'].elements['expr'].value,'_self')">
+    <input name="expr" id="expr" value="Universidade" required/>
+    <input type="submit" value="search"/>
+  </form>
+</p>
+
+<h3>Dirigente</h3>
+<p>
+   <a href="/dirigentes">Mostra todos</a>
+</p>
+<p><b>Informação sobre o Dirigente:</b>
+<form name="did" action="javascript:window.open('/dirigentes/'+document.forms['did'].elements['id'].value,'_self')">
+   Id:<input value="1" name="id" type="number" min="1"/><input type="submit" value="get"/>
+</form>
+</p>
+  
+<p>Procurar pelo Dirigente: (prone to <a href="https://en.wikipedia.org/wiki/SQL_injection">SQL injection</a>!)
+  <form name="dsearch" action="javascript:window.open('/dirigentes/search/'+document.forms['dsearch'].elements['expr'].value,'_self')">
+    <input name="expr" id="expr" value="António" required/>
+    <input type="submit" value="search"/>
+  </form>
+</p>
+
+<h3>Setor</h3>
+<p>
+   <a href="/setores">Mostra todos</a>
+</p>
+<p><b>Informação sobre o Setor:</b>
+<form name="sid" action="javascript:window.open('/setores/'+document.forms['sid'].elements['id'].value,'_self')">
+   Id:<input value="1" name="id" type="number" min="1"/><input type="submit" value="get"/>
+</form>
+</p>
+  
+<p>Procurar pelo Setor: (prone to <a href="https://en.wikipedia.org/wiki/SQL_injection">SQL injection</a>!)
+  <form name="ssearch" action="javascript:window.open('/setores/search/'+document.forms['ssearch'].elements['expr'].value,'_self')">
+    <input name="expr" id="expr" value="Estado" required/>
+    <input type="submit" value="search"/>
+  </form>
+</p>
+
+<h3>Telefone</h3>
+<p>
+   <a href="/telefones">Mostra todos</a>
+</p>
+<p>Procurar pelo Numero: (prone to <a href="https://en.wikipedia.org/wiki/SQL_injection">SQL injection</a>!)
+  <form name="tsearch" action="javascript:window.open('/telefones/search/'+document.forms['tsearch'].elements['expr'].value,'_self')">
+    <input name="expr" id="expr" value="219678951" required/>
+    <input type="submit" value="search"/>
+  </form>
+</p>
+
+<h3>Fax</h3>
+<p>
+   <a href="/faxs">Mostra todos</a>
+</p>
+<p>Procurar pelo Fax: (prone to <a href="https://en.wikipedia.org/wiki/SQL_injection">SQL injection</a>!)
+  <form name="fsearch" action="javascript:window.open('/faxs/search/'+document.forms['fsearch'].elements['expr'].value,'_self')">
+    <input name="expr" id="expr" value="219678945" required/>
+    <input type="submit" value="search"/>
+  </form>
+</p>
+
+<h3>Dominio</h3>
+<p>
+   <a href="/dominios">Mostra todos</a>
+</p>
+<p>Procurar pelo Domínio: (prone to <a href="https://en.wikipedia.org/wiki/SQL_injection">SQL injection</a>!)
+  <form name="dosearch" action="javascript:window.open('/dominios/search/'+document.forms['dosearch'].elements['expr'].value,'_self')">
+    <input name="expr" id="expr" value="Sociologia" required/>
+    <input type="submit" value="search"/>
+  </form>
+</p>
+
+
+<h3>Cada Instituição com todos os seus Domínios</h3>
+<p>
+   <a href="/trabalhas">Mostra todos</a>
+</p>
+{% endblock %}

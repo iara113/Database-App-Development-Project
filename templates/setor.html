@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}{{ setor.Nome }} {% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <h2>Sobre o Setor</h2>
+  <p>
+    <b>Id: </b><a href="/instituicoes/{{ setor.id }}">{{ setor.id }}</a>
+  </p>
+  <p>
+    <b>Instituição: </b>{{ setor.Instituicao }}
+  </p>
+  <p>
+    <b>Setor: </b>{{ setor.Setor }}
+  </p>
+ 
+{% endblock %}

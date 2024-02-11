@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}{{ dirigente.Nome }} {% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <h2>Sobre o Dirigente</h2>
+  <p>
+    <b>Id: </b><a href="/instituicoes/{{ dirigente.id }}">{{ dirigente.id }}</a>
+  </p>
+  {% if dirigente.Dirigente %}
+  <p>
+    <b>Dirigente: </b>{{ dirigente.Dirigente }}
+  </p>
+  {% else %}
+  <p>
+    <b>Sem dirigente de momento.</b>
+  </p>
+  {% endif %}
+  <p>
+    <b>Instituição: </b>{{ dirigente.Instituicao }}
+  </p>
+{% endblock %}
