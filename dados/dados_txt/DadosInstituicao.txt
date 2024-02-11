@@ -1,0 +1,44 @@
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('1','Academia da Força Aérea','afa.gabcmd@emfa.pt','http://www.emfa.pt','Lisboa','Granja do Marquês','2715-021','Pêro Pinheiro');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('2','Academia Militar',NULL,NULL,'Lisboa','Rua Gomes Freires','1169-203','Leiria');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('3','Area de Pediatria Cirúrgica','cirurgicapediatrica@chlc.min-saude.pt','http://www.chlc.min-saude.pt','Lisboa','R.Jacinta Marto','1169-045','Lisboa');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('4','Area de Pediatria Médica','servico1@hdestefania.min-saude.pt','http://www.hdestefania.min-saude.pt','Lisboa','R.Jacinta Marto','1169-045','Lisboa');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('5','Centro de Álgebra','caul@cii.fc.ul.pt','http://caul.cii.fc.ul.pt','Lisboa','Av.Prof.Gama Pinto 2','1649-003','Lisboa');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('6','Centro Algoritmi','secalgoritmi@dei.uminho.pt','http://www.algoritmi.uminho.pt','Braga','Campus de Azurém','4800-050','Guimaraes');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('7','Centro de Ciência Animal e Veterinária - CECAV','arnaldos@utad.pt','http://www.utad.pt/pt/investigacao/cecav/index.html','Vila Real','Qta. dos Prados-Apartado 1013','5001-801','Vila Real');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('8','Centro de Ciências da Terra',NULL,'http://www.dct.uminho.pt/cct','Braga','Campus de Gualtar','4710-057','Braga');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('9','Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','citab@utad.pt','http://www.citab.utad.pt','Vila Real','Apartado 1013','5001-801','Vila Real');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('10','Escola Superior de Design',NULL,NULL,'Lisboa','Av. Dom Carlos I 4','1200-649','Lisboa');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('11','Escola Superior de Desenvolvimento Social e Comunitário',NULL,NULL,'Porto','Avenida dos Descobrimentos 333','4400-103','Vila Nova de Gaia');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('12','Escola Superior de Enfermagem de Coimbra',NULL,NULL,'Coimbra','Av. Bissaya Barreto','3000-000','Coimbra');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('13','Escola Superior de Saúde','secretaria@essua.ua.pt','http://www.ua.pt/essua','Aveiro','Campus Universitário de Santiago','3810-193','Aveiro');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('14','Lab:USE','info@labuse.org','http://www.labuse.org','Funchal','Campus da Penteada','9000-390','Madeira');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('15','Serviço Social','geral@chpc.min-saude-pt','http://www.chpc.min-saude.pt','Coimbra','Apartado 1','3031-801','Coimbra');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('16','Reitoria','gabreitor@unl.pt','http://www.unl.pt','Lisboa','Campus de Campolide','1099-085','Lisboa');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('17','Requimte','isa@dq.fct.unl.pt','http://www.requimte.pt/','Setúbal','Qta. da Torre','2829-516','Caparica');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('18','Museu de Évora','mevora@imc-ip.pt',NULL,'Évora','Lg. Conde Vila Flor','7000-804','Évora');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('19','Serviço de Cardiologia',NULL,NULL,'Lisboa','Av. Prof. Egas Moniz','1649-035','Lisboa');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('20','Serviço de Oncologia Médica',NULL,NULL,'Coimbra','Av. Bissaia Barreto','3001-651','Coimbra');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('21','Escola de Serviço de Saúde Militar',NULL,NULL,'Lisboa','R. da Infantaria 16 n30','1269-091','Pêro Pinheiro');
+
+INSERT INTO Instituicao(id,Nome,Email,Website,Distrito,Endereco,CC,Localidade) VALUES('22','Escola de Artes','artes@porto.ucp.pt','http://www.artes.ucp.pt','Porto','R. Diogo Botelho','4169-005','Porto');
+

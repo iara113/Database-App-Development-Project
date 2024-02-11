@@ -1,0 +1,37 @@
+INSERT INTO Telefone(Nome,Numero) VALUES('Academia da Força Aérea','219678951');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Area de Pediatria Cirúrgica','213126898');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Area de Pediatria Médica','213126600');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Centro de Álgebra','217904739');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Centro Algoritmi','253510180');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Centro de Ciência Animal e Veterinária - CECAV','259350408');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Centro de Ciência Animal e Veterinária - CECAV','259350409');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Centro de Ciências da Terra','253604300');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','259350446');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','259350439');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Escola Superior de Saúde','234401558');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Lab:USE','291705150');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Serviço Social','239796400');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Reitoria','213715600');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Requimte','212948381');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Museu de Évora','266702604');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Serviço de Cardiologia','217548000');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Serviço de Oncologia Médica','239400200');
+
+INSERT INTO Telefone(Nome,Numero) VALUES('Escola de Artes','226196200');

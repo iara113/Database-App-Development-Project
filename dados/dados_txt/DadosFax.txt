@@ -1,0 +1,35 @@
+INSERT INTO Fax(Nome,Numero) VALUES('Academia da Força Aérea','219678945');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Area de Pediatria Cirúrgica','213126898');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Area de Pediatria Médica','213126667');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Centro de Álgebra','217954288');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Centro Algoritmi','253510188');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Centro de Ciência Animal e Veterinária - CECAV','259350482');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Centro de Ciências da Terra','253678206');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','259350327');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','259350629');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Escola Superior de Saúde','234401597');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Lab:USE','291705199');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Serviço Social','239796499');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Reitoria','213715614');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Requimte','212948550');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Museu de Évora','266708094');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Serviço de Cardiologia','217548215');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Serviço de Oncologia Médica','239484317');
+
+INSERT INTO Fax(Nome,Numero) VALUES('Escola de Artes','226196291');

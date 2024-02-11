@@ -1,0 +1,58 @@
+INSERT INTO Dominio(Nome) VALUES ('Medicina Clínica');
+
+INSERT INTO Dominio(Nome) VALUES ('Matemática');
+
+INSERT INTO Dominio(Nome) VALUES ('Ciências da Computação e Ciências da Informação');
+
+INSERT INTO Dominio(Nome) VALUES ('Engenharia Eletrotécnica');
+
+INSERT INTO Dominio(Nome) VALUES ('Electrónica e Informática');
+
+INSERT INTO Dominio(Nome) VALUES ('Ciência Animal e dos Lacticínios');
+
+INSERT INTO Dominio(Nome) VALUES ('Ciências Veterinárias');
+
+INSERT INTO Dominio(Nome) VALUES ('Ciências');
+
+INSERT INTO Dominio(Nome) VALUES ('Ciências da Terra e do Ambiente');
+
+INSERT INTO Dominio(Nome) VALUES ('Ciências Biológicas');
+
+INSERT INTO Dominio(Nome) VALUES ('Engenharia Civil');
+
+INSERT INTO Dominio(Nome) VALUES ('Engenharia Mecânica');
+
+INSERT INTO Dominio(Nome) VALUES ('Engenharia do Ambiente');
+
+INSERT INTO Dominio(Nome) VALUES ('Biotecnologia Ambiental');
+
+INSERT INTO Dominio(Nome) VALUES ('Agricultura');
+
+INSERT INTO Dominio(Nome) VALUES ('Silvicultura e Pescas');
+
+INSERT INTO Dominio(Nome) VALUES ('Física');
+
+INSERT INTO Dominio(Nome) VALUES ('Psicologia');
+
+INSERT INTO Dominio(Nome) VALUES ('Economia e Gestão');
+
+INSERT INTO Dominio(Nome) VALUES ('Sociologia');
+
+INSERT INTO Dominio(Nome) VALUES ('Direito');
+
+INSERT INTO Dominio(Nome) VALUES ('Artes');
+
+INSERT INTO Dominio(Nome) VALUES ('Ciências da Saúde');
+
+INSERT INTO Dominio(Nome) VALUES ('Medicina Basica');
+
+INSERT INTO Dominio(Nome) VALUES ('Outras Ciências Sociais');
+
+INSERT INTO Dominio(Nome) VALUES ('Química');
+
+INSERT INTO Dominio(Nome) VALUES ('Biotecnologia Agrária e Alimentar');
+
+INSERT INTO Dominio(Nome) VALUES ('História e Arqueologia');
+
+INSERT INTO Dominio(Nome) VALUES ('Ética e Religião');
+
