@@ -1,0 +1,122 @@
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia da Força Aérea','Matemática');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia da Força Aérea','Ciências da Computação e Ciências da Informação');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia da Força Aérea','Engenharia Civil');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia da Força Aérea','Engenharia Eletrotécnica');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia da Força Aérea','Electrónica e Informática');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia da Força Aérea','Engenharia Mecânica');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia da Força Aérea','Ciências da Saúde');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia da Força Aérea','Economia e Gestão');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia da Força Aérea','Sociologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia da Força Aérea','Direito');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia da Força Aérea','História e Arqueologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia da Força Aérea','Ética e Religião');
+
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Matemática');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Ciências da Computação e Ciências da Informação');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Engenharia Civil');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Engenharia Eletrotécnica');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Electrónica e Informática');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Engenharia Mecânica');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Ciências da Saúde');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Economia e Gestão');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Psicologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Sociologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Direito');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Outras Ciências Sociais');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Artes');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Academia Militar','Ética e Religião');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Area de Pediatria Cirúrgica','Medicina Clínica');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Area de Pediatria Médica','Medicina Clínica');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro de Álgebra','Matemática');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro Algoritmi','Ciências da Computação e Ciências da Informação');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro Algoritmi','Engenharia Eletrotécnica');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro Algoritmi','Electrónica e Informática');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro de Ciência Animal e Veterinária - CECAV','Ciência Animal e dos Lacticínios');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro de Ciência Animal e Veterinária - CECAV','Ciências Veterinárias');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro de Ciências da Terra','Ciências');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','Ciências da Computação e Ciências da Informação');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','Ciências da Terra e do Ambiente');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','Engenharia Civil');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','Engenharia Eletrotécnica');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','Electrónica e Informática');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','Engenharia Mecânica');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','Engenharia do Ambiente');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','Agricultura');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Centro de Investigação e de Tecnologias Agro Ambientais e Biológicas - CITAB','Silvicultura e Pescas');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Design','Matemática');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Design','Engenharia Civil');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Design','Engenharia Eletrotécnica');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Design','Electrónica e Informática');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Design','Engenharia Mecânica');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Design','Economia e Gestão');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Design','Sociologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Design','Direito');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Design','Outras Ciências Sociais');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Design','História e Arqueologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Design','Ética e Religião');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Design','Artes');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Desenvolvimento Social e Comunitário','Ciências da Computação e Ciências da Informação');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Desenvolvimento Social e Comunitário','Psicologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Desenvolvimento Social e Comunitário','Economia e Gestão');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Desenvolvimento Social e Comunitário','Sociologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Desenvolvimento Social e Comunitário','Direito');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Desenvolvimento Social e Comunitário','Outras Ciências Sociais');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Desenvolvimento Social e Comunitário','Artes');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Enfermagem de Coimbra','Ciências da Saúde');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Enfermagem de Coimbra','Psicologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Enfermagem de Coimbra','Sociologia');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Saúde','Ciências da Computação e Ciências da Informação');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Saúde','Engenharia Eletrotécnica');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Saúde','Electrónica e Informática');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Saúde','Ciências da Saúde');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Saúde','Economia e Gestão');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Saúde','Sociologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Saúde','Direito');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola Superior de Saúde','Ética e Religião');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Lab:USE','Engenharia Eletrotécnica');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Lab:USE','Electrónica e Informática');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Serviço Social','Outras Ciências Sociais');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Reitoria','Outras Ciências Sociais');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Reitoria','Ciências da Computação e Ciências da Informação');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Requimte','Ciências Biológicas');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Requimte','Outras Ciências Sociais');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Requimte','Ciências da Saúde');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Requimte','Química');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Museu de Évora','História e Arqueologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Museu de Évora','Artes');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Serviço de Cardiologia','Medicina Clínica');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Serviço de Oncologia Médica','Medicina Clínica');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola de Serviço de Saúde Militar','Ciências da Saúde');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola de Serviço de Saúde Militar','Sociologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola de Serviço de Saúde Militar','Outras Ciências Sociais');
+
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola de Artes','Engenharia Eletrotécnica');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola de Artes','Electrónica e Informática');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola de Artes','Sociologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola de Artes','Direito');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola de Artes','Outras Ciências Sociais');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola de Artes','História e Arqueologia');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola de Artes','Ética e Religião');
+INSERT INTO Trabalha_Segundo(Instituicao,Dominio) VALUES ('Escola de Artes','Artes');
+
+
